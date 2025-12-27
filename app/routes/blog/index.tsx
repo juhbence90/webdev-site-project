@@ -32,7 +32,7 @@ export function meta({}: Route.MetaArgs) {
 const BlogPage = ({ loaderData }: Route.ComponentProps) => {
   const [searchQuery, setSearchQuery] = useState("");
   const [currentPage, setCurrentPage] = useState(1);
-  const postsPerPage = 10;
+  const postsPerPage = 4;
 
   const { posts } = loaderData;
 
